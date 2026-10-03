@@ -1,6 +1,6 @@
 # webgoat-linux-setup-scripts
 
-With the scripts one can setup a webgoat server within a docker container with ease and even let the server run as Access Point for nearby devices. If you are proficient in linux and somewhat in cybersecurity, I suggest checking out the official WebGoat and Docker Container installation guides and setting up the in-/outgoing connections yourself. However if you want to lean back and have a guided installation, these setup scripts will be helpful.
+With the scripts one can setup a webgoat server within a docker container with ease and some added firewall rules. Optional: let the server run as Access Point for nearby devices. If you are proficient in linux and somewhat in cybersecurity, I suggest checking out the official WebGoat and Docker Container installation guides and setting up the in-/outgoing connections yourself. However if you want to lean back and have a guided installation, these setup scripts will be helpful.
 
 # Debian Installation
 This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. This is a placeholder. 
