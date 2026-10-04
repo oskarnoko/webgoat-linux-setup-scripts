@@ -14,14 +14,14 @@ Download and run the setup script for your specific Linux distribution.
 
 ### Debian
 ```bash
-curl -O [https://raw.githubusercontent.com/oskarnoko/webgoat-linux-setup-scripts/main/webgoat-debian-setup-script.sh](https://raw.githubusercontent.com/oskarnoko/webgoat-linux-setup-scripts/main/webgoat-debian-setup-script.sh)
+curl -O https://raw.githubusercontent.com/oskarnoko/webgoat-linux-setup-scripts/main/webgoat-debian-setup-script.sh
 chmod +x webgoat-debian-setup-script.sh
 sudo sh webgoat-debian-setup-script.sh
 ```
 
-## Ubuntu
+### Ubuntu
 ```bash
-curl -O [https://raw.githubusercontent.com/oskarnoko/webgoat-linux-setup-scripts/main/webgoat-ubuntu-setup-script.sh](https://raw.githubusercontent.com/oskarnoko/webgoat-linux-setup-scripts/main/webgoat-ubuntu-setup-script.sh)
+curl -O https://raw.githubusercontent.com/oskarnoko/webgoat-linux-setup-scripts/main/webgoat-ubuntu-setup-script.sh
 chmod +x webgoat-ubuntu-setup-script.sh
 sudo sh webgoat-ubuntu-setup-script.sh
 ```
