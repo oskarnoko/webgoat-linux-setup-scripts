@@ -8,19 +8,6 @@ Automated setup scripts to quickly deploy a WebGoat server inside a Docker conta
 * **Smart Routing:** Prioritizes Ethernet over Wi-Fi for internet traffic, allowing AP-connected devices to reach both WebGoat and the external internet.
 * **Persistent Firewall Rules:** Automatically configures and saves your iptables.
 
-## Requirements
-
-* An active internet connection (Wi-Fi or Ethernet)
-* A Debian/Ubuntu-based Linux distribution
-* `git` installed 
-
-You can check if Git is already installed by running `git -v`. If it isn't, install it using:
-
-```bash
-sudo apt update
-sudo apt install git
-```
-
 ## Installation
 
 Download and run the setup script for your specific Linux distribution. 
