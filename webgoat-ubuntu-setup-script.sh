@@ -6,7 +6,7 @@
 
 # Ensure the script is run with root privileges
 if [ "$(id -u)" -ne 0 ]; then
-  echo "Error: Please run this script as root (e.g., sudo sh ./setup_webgoat_ap.sh)"
+  echo "Error: Please run this script as root (e.g., sudo sh ./webgoat-ubuntu-setup-script.sh)"
   exit 1
 fi
 
@@ -215,9 +215,9 @@ echo "[*] Opening ports 8080 and 9090 in FORWARD chain for WebGoat access..."
 iptables -I FORWARD -i "$WIFI_IFACE" -p tcp --dport 8080 -j ACCEPT
 iptables -I FORWARD -i "$WIFI_IFACE" -p tcp --dport 9090 -j ACCEPT
 
-# ==========================================
+# --------------------------------------------------------- 
 # 6. SAVE RULES (Persistent Setup)
-# ==========================================
+# ---------------------------------------------------------
 read -p "Do you want to save these rules permanently? (y/n) [Default: n]: " SAVE_RULES
 SAVE_RULES=${SAVE_RULES:-n}
 
