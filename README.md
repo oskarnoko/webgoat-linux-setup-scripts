@@ -4,7 +4,7 @@ Automated setup scripts to quickly deploy a WebGoat server inside a Docker conta
 
 ### Features
 * **Automated Dependencies:** Checks for and installs Docker, then pulls the WebGoat image.
-* **Optional Wi-Fi Access Point:** Broadcasts an AP for nearby devices to connect to WebGoat.
+* **Wi-Fi Access Point:** Broadcasts an AP for nearby devices to connect to WebGoat.
 * **Smart Routing:** Prioritizes Ethernet over Wi-Fi for internet traffic, allowing AP-connected devices to reach both WebGoat and the external internet.
 * **Persistent Firewall Rules:** Automatically configures and saves your iptables.
 
